@@ -17,7 +17,7 @@
 [If You are authenticated in that case you can do above operations]
 -->Delete or Update Data previous image will be removed.
 <br>
-Live Preview of the website <a href="https://sample3.ranasvc.com">Go!</a> <br>
+Live Preview of the website <a href="https://sample3.ranasvc.com">Go! SCIMS</a> <br>
 
 <img src="screenshots/screenshot_x1.png" height="400px">
 <img src="screenshots/screenshot_x2png" height="400px">
