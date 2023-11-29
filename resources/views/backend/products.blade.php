@@ -37,9 +37,12 @@
   </thead>
   <tbody>
     @if($products->count() > 0)
+    @php
+      $i = 1;
+    @endphp
         @foreach($products as $product)
          <tr>
-            <th scope="row">{{$product->id}}</th>
+            <th scope="row">{{$i++}}</th>
             <td>{{$product->name}}</td>
             <td>{{$product->quantity}}</td>
             <td>৳{{$product->price}}</td>
