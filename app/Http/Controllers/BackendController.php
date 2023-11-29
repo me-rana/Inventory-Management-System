@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
 use App\Http\Controllers\base\Products;
 
 class BackendController extends Controller
@@ -25,7 +26,13 @@ class BackendController extends Controller
         $product = $shop->read_one($id);
         return view('backend.addproduct', compact('product'));
     }
-    public function submitted(Request $req){
+    public function submitted(Request $req) : RedirectResponse {
+        $req->validate(
+            [
+                'name'  =>  'required',
+                'quantity' => 'required|integer',
+                'price' => 'required|integer',
+            ]);
         $datas = ['name', 'quantity', 'price'];
         $product = new products();
         $action = $product->submitted($req, $datas);
@@ -38,7 +45,13 @@ class BackendController extends Controller
         }
         return redirect()->back()->with($key, $message);
     }
-    public function resubmitted(Request $req, $id){
+    public function resubmitted(Request $req, $id)  : RedirectResponse {
+        $req->validate(
+            [
+                'name'  =>  'required',
+                'quantity' => 'required|integer',
+                'price' => 'required|float',
+            ]);
         $datas = ['name', 'quantity', 'price'];
         $product = new products();
         $action = $product->resubmitted($req, $datas, $id);

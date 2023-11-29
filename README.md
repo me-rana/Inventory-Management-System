@@ -10,6 +10,7 @@
 <br>
 <p> <h4>Functionality </h4><br>
 <li>Authentication</li>
+<li>Validation</li>
 <li>Add New Product</li>
 <li>Update New Product</li>
 <li>Store Data</li>
@@ -23,7 +24,23 @@ Demo Username :  <strong> admin@test.me </strong> <br>
 Demo Password :  <strong> adminx4312 </strong>
 <br>
 <br>
-<center> <strong>Any authenticate user can delete or modify any data due to I build it a simple CRUD Operation.</strong> </center> <br><br>
+    //Contact Validate
+    $request->validate(
+                [
+                    'name'  =>  'required',
+                    'email' => 'required|email',
+                    'subject' => 'required',
+                    'message' => 'required'
+                ]);
+                //Product Validate
+     $req->validate(
+            [
+                'name'  =>  'required',
+                'quantity' => 'required|integer',
+                'price' => 'required|integer',
+            ]);
+<br><br>
+ <strong>Any authenticate user can delete or modify any data due to I build it a simple CRUD Operation.</strong> <br><br>
 Live Preview of the website <a href="https://sample3.ranasvc.com">Visit Now! SCIMS</a> <br>
 
 <img src="screenshots/screenshot_x1.png" width="400px">
