@@ -18,9 +18,12 @@
 <strong> -->Delete or Update Data previous image will be removed. </strong>
 <br>
 Backend View--> Create a Account and You can delete or modify data. <br>
-Demo Username :  admin@test.me <br>
-Demo Password :  adminx4312
 <br>
+Demo Username :  <strong> admin@test.me </strong> <br>
+Demo Password :  <strong> adminx4312 </strong>
+<br>
+<br>
+<center> <font color="red">Any authenticate user can delete or modify any data due to I build it a simple CRUD Operation.</font> </center>
 Live Preview of the website <a href="https://sample3.ranasvc.com">Go! SCIMS</a> <br>
 
 <img src="screenshots/screenshot_x1.png" width="400px">
@@ -30,6 +33,6 @@ Live Preview of the website <a href="https://sample3.ranasvc.com">Go! SCIMS</a> 
 
 <br>
 Thanks,<br>
-Rana Bepari
-<a href="https://ranasvc.com">Official Website</a>
+Rana Bepari<br>
+<a href="https://ranasvc.com">Official Website</a> <br> You can see some of my update project to visit my website
  </p>
