@@ -11,5 +11,5 @@
 <br>
 Live Preview of the website <a href="https://sample3.ranasvc.com">Go!</a> <br>
 Home Page
- <img src="../screenshots/screenshotx4.png">
+ <img src="screenshots/screenshotx4.png" height="400px">
  </p>
