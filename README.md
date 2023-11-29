@@ -19,8 +19,8 @@
 <br>
 Live Preview of the website <a href="https://sample3.ranasvc.com">Go!</a> <br>
 
-<img src="screenshots/screenshotx1.png" height="400px">
-<img src="screenshots/screenshotx2png" height="400px">
-<img src="screenshots/screenshotx3.png" width="200px">
-<img src="screenshots/screenshotx4.png" height="200px">
+<img src="screenshots/screenshot_x1.png" height="400px">
+<img src="screenshots/screenshot_x2png" height="400px">
+<img src="screenshots/screenshot_x3.png" width="400px">
+<img src="screenshots/screenshot_x4.png" width="400px">
  </p>
