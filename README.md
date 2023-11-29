@@ -24,21 +24,22 @@ Demo Username :  <strong> admin@test.me </strong> <br>
 Demo Password :  <strong> adminx4312 </strong>
 <br>
 <br>
-    //Contact Validate
-    $request->validate(
-                [
-                    'name'  =>  'required',
-                    'email' => 'required|email',
-                    'subject' => 'required',
-                    'message' => 'required'
-                ]);
-                //Product Validate
-     $req->validate(
-            [
-                'name'  =>  'required',
-                'quantity' => 'required|integer',
-                'price' => 'required|integer',
-            ]);
+    //Contact Validate 
+    <br>
+    $request->validate( <br>
+                [<br>
+                    'name'  =>  'required', <br>
+                    'email' => 'required|email',<br>
+                    'subject' => 'required',<br>
+                    'message' => 'required'<br>
+                ]);<br>
+                //Product Validate<br>
+     $req->validate(<br>
+            [<br>
+                'name'  =>  'required',<br>
+                'quantity' => 'required|integer',<br>
+                'price' => 'required|integer',<br>
+            ]);<br>
 <br><br>
  <strong>Any authenticate user can delete or modify any data due to I build it a simple CRUD Operation.</strong> <br><br>
 Live Preview of the website <a href="https://sample3.ranasvc.com">Visit Now! SCIMS</a> <br>
