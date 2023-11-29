@@ -50,7 +50,7 @@ class BackendController extends Controller
             [
                 'name'  =>  'required',
                 'quantity' => 'required|integer',
-                'price' => 'required|float',
+                'price' => 'required|integer',
             ]);
         $datas = ['name', 'quantity', 'price'];
         $product = new products();
