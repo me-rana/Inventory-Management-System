@@ -14,13 +14,22 @@
 <li>Update New Product</li>
 <li>Store Data</li>
 <li>Delete Data</li>
-[If You are authenticated in that case you can do above operations]
--->Delete or Update Data previous image will be removed.
+[If You are authenticated in that case you can do above operations] <br>
+<strong> -->Delete or Update Data previous image will be removed. </strong>
+<br>
+Backend View--> Create a Account and You can delete or modify data. <br>
+Demo Username :  admin@test.me <br>
+Demo Password :  adminx4312
 <br>
 Live Preview of the website <a href="https://sample3.ranasvc.com">Go! SCIMS</a> <br>
 
-<img src="screenshots/screenshot_x1.png" height="400px">
-<img src="screenshots/screenshot_x2.png" height="400px">
+<img src="screenshots/screenshot_x1.png" width="400px">
+<img src="screenshots/screenshot_x2.png" width="400px">
 <img src="screenshots/screenshot_x3.png" width="400px">
 <img src="screenshots/screenshot_x4.png" width="400px">
+
+<br>
+Thanks,<br>
+Rana Bepari
+<a href="https://ranasvc.com">Official Website</a>
  </p>
