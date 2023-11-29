@@ -2,14 +2,14 @@
 
 <h3> Simplified Custom Inventory Management System (IMS) </h3>
 <p> Functionality <br> 
-<li>Authentication</li>
 <li>Add New Product</li>
 <li>Update New Product</li>
 <li>Store Data</li>
 <li>Delete Data</li>
 [If You are authenticated in that case you can do above operations]
+-->Delete or Update Data previous image will be removed.
 <br>
-Live Preview of the website <br>
-
-<a href="https://sample3.ranasvc.com">Go!</a>
+Live Preview of the website <a href="https://sample3.ranasvc.com">Go!</a> <br>
+Home Page
+ <img src="../screenshots/screenshotx4.png">
  </p>
