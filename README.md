@@ -2,13 +2,13 @@
 
 <h3> Simplified Custom Inventory Management System (IMS) </h3>
  
-<h4>Front Views</h3>
+<h4>Front Views</h4>
 <li>Home Page</li>
 <li>Search Product</li>
 <li>Contact Submit</li>
 <li>Single Product Page</li>
 <br>
-<p> Functionality <br>
+<p> <h4>Functionality </h4><br>
 <li>Authentication</li>
 <li>Add New Product</li>
 <li>Update New Product</li>
