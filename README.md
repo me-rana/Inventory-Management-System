@@ -23,8 +23,8 @@ Demo Username :  <strong> admin@test.me </strong> <br>
 Demo Password :  <strong> adminx4312 </strong>
 <br>
 <br>
-<center> <font color="red">Any authenticate user can delete or modify any data due to I build it a simple CRUD Operation.</font> </center>
-Live Preview of the website <a href="https://sample3.ranasvc.com">Go! SCIMS</a> <br>
+<center> <strong>Any authenticate user can delete or modify any data due to I build it a simple CRUD Operation.</strong> </center> <br><br>
+Live Preview of the website <a href="https://sample3.ranasvc.com">Visit Now! SCIMS</a> <br>
 
 <img src="screenshots/screenshot_x1.png" width="400px">
 <img src="screenshots/screenshot_x2.png" width="400px">
