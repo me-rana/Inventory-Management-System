@@ -16,7 +16,7 @@
 <li>Store Data</li>
 <li>Delete Data</li>
 [If You are authenticated in that case you can do above operations] <br>
-<strong> -->Delete or Update Data previous image will be removed. </strong>
+<strong> -->Delete or Update Image previous image will be removed. </strong>
 <br>
 Backend View--> Create a Account and You can delete or modify data. <br>
 <br>
