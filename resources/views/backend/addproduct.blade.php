@@ -35,13 +35,13 @@
           </div>
           <div class="mb-3">
               <label for="" class="form-label">Product Quantity</label>
-              <input type="text" name="quantity" value="{{$product->quantity ?? ''}}" id="" class="form-control" placeholder="" aria-describedby="helpId">
+              <input type="number" name="quantity" value="{{$product->quantity ?? ''}}" id="" class="form-control" placeholder="" aria-describedby="helpId">
               <small><span class="text-danger"> @error('quantity') {{$message}} @enderror </span></small>
             </div>
       
             <div class="mb-3">
               <label for="" class="form-label">Product Price</label>
-              <input type="text" name="price" value="{{$product->price ?? ''}}" id="" class="form-control" placeholder="" aria-describedby="helpId">
+              <input type="number" name="price" value="{{$product->price ?? ''}}" id="" class="form-control" placeholder="" aria-describedby="helpId">
               <small><span class="text-danger"> @error('price') {{$message}} @enderror </span></small>
             </div>
       
