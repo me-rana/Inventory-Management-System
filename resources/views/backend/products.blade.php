@@ -23,36 +23,40 @@
         @endif
       </div>
       <h3 class="text-center my-5" style="font-size: 24px">Product List</h3>
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Name</th>
-      <th scope="col">Quantity</th>
-      <th scope="col">Price</th>
-      <th scope="col">Image</th>
-      <th scope="col">Action Modified</th>
-      <th scope="col">Action Removal</th>
-    </tr>
-  </thead>
-  <tbody>
-    @if($products->count() > 0)
-    @php
-      $i = 1;
-    @endphp
-        @foreach($products as $product)
-         <tr>
-            <th scope="row">{{$i++}}</th>
-            <td>{{$product->name}}</td>
-            <td>{{$product->quantity}}</td>
-            <td>৳{{$product->price}}</td>
-            <td><img src="{{$product->image_path ?? 'storage/products/no-image.jpeg'}}" width="100px"></td>
-            <td><a href="../../update-product/{{$product->id}}"><button class="btn btn-danger">Modifiy</button></a></td>
-            <td><a href="../../delete-product/{{$product->id}}"><button class="btn btn-danger">Remove</button></a></td>
-         </tr> 
-        @endforeach
-    @endif
-  </tbody>
-</table>
+    
+       <div style="overflow-x: auto;">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+              <th scope="col">Image</th>
+              <th scope="col">Action Modified</th>
+              <th scope="col">Action Removal</th>
+            </tr>
+          </thead>
+          <tbody>
+            @if($products->count() > 0)
+            @php
+              $i = 1;
+            @endphp
+                @foreach($products as $product)
+                 <tr>
+                    <th scope="row">{{$i++}}</th>
+                    <td>{{$product->name}}</td>
+                    <td>{{$product->quantity}}</td>
+                    <td>৳{{$product->price}}</td>
+                    <td><img src="{{$product->image_path ?? 'storage/products/no-image.jpeg'}}" width="100px"></td>
+                    <td><a href="../../update-product/{{$product->id}}"><button class="btn btn-danger">Modifiy</button></a></td>
+                    <td><a href="../../delete-product/{{$product->id}}"><button class="btn btn-danger">Remove</button></a></td>
+                 </tr> 
+                @endforeach
+            @endif
+          </tbody>
+        </table>
+      </div>
+
     </div>
 </x-app-layout>
