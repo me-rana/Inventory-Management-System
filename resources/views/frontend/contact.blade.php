@@ -36,22 +36,22 @@
                     @csrf
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Name</label>
-                        <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Rana Bepari">
+                        <input name="name" type="text" class="form-control" id="exampleFormControlInput1" value="{{old('name')}}" placeholder="Rana Bepari">
                         <small><span class="text-danger"> @error('name') {{$message}} @enderror </span></small>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput2" class="form-label">Email address</label>
-                        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="contact@ranasvc.com">
+                        <input name="email" type="email" class="form-control" value="{{old('email')}}" id="exampleFormControlInput1" placeholder="contact@ranasvc.com">
                         <small><span class="text-danger"> @error('email') {{$message}} @enderror </span></small>
                     </div>
                       <div class="mb-3">
                         <label for="exampleFormControlInput3" class="form-label">Subject</label>
-                        <input name="subject" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ask something">
+                        <input name="subject" type="text" class="form-control" value="{{old('subject')}}" id="exampleFormControlInput1" placeholder="Ask something">
                         <small><span class="text-danger"> @error('subject') {{$message}} @enderror </span></small>
                     </div>
                       <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Meesage</label>
-                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3">{{old('message')}}</textarea>
                         <small><span class="text-danger"> @error('message') {{$message}} @enderror </span></small>
                     </div>
                     <button class="btn btn-primary">Send a Message</button>
