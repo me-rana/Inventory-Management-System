@@ -8,7 +8,7 @@
             <p>Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat.</p>
             <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Mirpur, Dhaka-1216, Bangladesh</p>
             <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>contact@ranasvc.com</p>
-            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+01521380065 (Whatsapp)</p>
+            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>01521380065 (Whatsapp)</p>
         </div>
         <div class="col-lg-8 col-md-12">
             <div class="row">
@@ -36,12 +36,13 @@
                 </div>
                 <div class="col-md-4 mb-5">
                     <h5 class="font-weight-bold text-dark mb-4">Newsletter</h5>
-                    <form action="">
+                    <form action="{{route('Newsletter')}}" method="POST">
+                        @csrf
                         <div class="form-group">
-                            <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
+                            <input name="name" type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
+                            <input name="email" type="email" class="form-control border-0 py-4" placeholder="Your Email"
                                 required="required" />
                         </div>
                         <div>

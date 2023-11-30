@@ -128,3 +128,15 @@
         </div>
     </div>
     <!-- Navbar End -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  @if (session('newsletter'))
+<div class="container">
+  <div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <div class="row">
+        <div class="col-11"><strong>Success!</strong> {{session('newsletter')}}</div>
+        <div class="col-1"><button type="button" class="btn-close btn-danger" data-bs-dismiss="alert" aria-label="Close">X</button></div>
+    </div> 
+  </div>
+</div>
+  @endif

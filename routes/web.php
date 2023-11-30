@@ -25,6 +25,7 @@ Route::get('/contact',[FrontendController::class, 'contact'])->name('Contact');
 Route::post('/contact',[FrontendController::class, 'contact_submitted'])->name('Contact Submitted');
 Route::get('/search', [FrontendController::class, 'myquery'])->name('Search Result');
 Route::get('/product/{id}', [FrontendController::class, 'product_details'])->name('Single Product');
+Route::post('/newsletter', [FrontendController::class, 'newsletter'])->name('Newsletter');
 
 
 //Authenticate User's Management System------------------------------------------------------------------>

@@ -20,12 +20,18 @@
 
     <!-- Contact Start -->
     <div class="container-fluid pt-5">
-          @if (session('message'))
+         
+@if (session('message'))
+<div class="container">
   <div class="alert alert-primary alert-dismissible fade show" role="alert">
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">X</button>
-    <strong>Success!</strong> {{session('message')}}
+    <div class="row">
+        <div class="col-11"><strong>Success!</strong> {{session('message')}}</div>
+        <div class="col-1"><button type="button" class="btn-close btn-danger" data-bs-dismiss="alert" aria-label="Close">X</button></div>
+    </div> 
   </div>
+</div>
   @endif
+          
         <div class="text-center mb-4" id="contact">
             <h2 class="section-title px-5"><span class="px-2">Contact For Any Queries</span></h2>
         </div>
@@ -78,5 +84,5 @@
     </div>
     <!-- Contact End -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 @endsection

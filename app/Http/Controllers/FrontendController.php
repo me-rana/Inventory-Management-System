@@ -7,6 +7,7 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use App\Http\Controllers\base\Products;
+use App\Models\Newsletter;
 
 class FrontendController extends Controller
 {
@@ -45,6 +46,18 @@ class FrontendController extends Controller
         $product = Product::where('id',$id)->first();
         $products = Product::latest()->limit(4)->get();
         return view('frontend.view', compact('product','products'));
+    }
+    public function newsletter(Request $request)  : RedirectResponse{
+        $request->validate(
+            [
+                'name'  =>  'required',
+                'email' => 'required|email'
+            ]);
+        $newsletter = new Newsletter();
+        $newsletter->name = $request->name;
+        $newsletter->email = $request->email;
+        $newsletter->save();
+        return redirect()->back()->with('newsletter', 'Thanks for submitting email for Newsletter.');
     }
 
 }

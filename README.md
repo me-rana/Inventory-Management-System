@@ -5,7 +5,8 @@
 <h4>Front Views</h4>
 <li>Home Page</li>
 <li>Search Product</li>
-<li>Contact Submit</li>
+<li>Contact Submission</li>
+<li>Newsletter Submission</li>
 <li>Single Product Page</li>
 <br>
 <p> <h4>Functionality </h4><br>
