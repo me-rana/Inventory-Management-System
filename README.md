@@ -20,11 +20,7 @@
 <strong> -->Delete or Update Image previous image will be removed. </strong>
 <br>
 Backend View--> Create a Account and You can delete or modify data. <br>
-<br>
-Demo Website  :  <a href="https://sample3.ranasvc.com"> <strong> https://sample3.ranasvc.com </strong> </a> <br>
-Demo Username :  <strong> admin@test.me </strong> <br>
-Demo Password :  <strong> adminx4312 </strong>
-<br>
+
 <br>
     //Contact Validate 
     <br>
